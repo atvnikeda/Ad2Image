@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Ad2Image",
+  "version": "1.0",
+  "description": "Change ad in qiita articles to a different image.",
+  "homepage_url": "https://github.com/dadaa/3BaiNext",
+  "author": "Sho Ikeda",
+  "content_scripts": [
+    {
+      "matches": ["https://qiita.com/*/items/*","https://news.yahoo.co.jp/","https://news.yahoo.co.jp/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
